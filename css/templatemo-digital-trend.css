@@ -149,14 +149,14 @@ https://templatemo.com/tm-538-digital-trend
     border: 2px solid var(--dark-color);
     border-radius: var(--border-radius-large);
     padding: 12px 26px 14px 26px;
-    color: var(--dark-color);
+    color: var(--p-color);
     font-family: var(--title-font-family);
     font-size: var(--p-font-size);
     white-space: nowrap;
   }
 
   .custom-btn.btn-bg {
-    background: var(--white-color);
+    background: var(--secondary-color);
     color: var(--primary-color);
     border-color: transparent;
 	transition: all .3s ease;
@@ -164,8 +164,8 @@ https://templatemo.com/tm-538-digital-trend
   
   .custom-btn:hover,
   .custom-btn:focus {
-    background: var(--dark-color);
-    color: var(--white-color);
+    background: var(--primary-color);
+    color: var(--primary-color);
     border-color: transparent;
   }
 
@@ -391,7 +391,7 @@ https://templatemo.com/tm-538-digital-trend
 
   .project-info small {
     font-family: Plain-Bold;
-    color: var(--primary-color);
+    color: var(--secondary-color);
     position: relative;
     top: 2px;
   }
