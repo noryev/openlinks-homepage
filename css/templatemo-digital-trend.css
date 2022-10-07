@@ -101,6 +101,18 @@ https://templatemo.com/tm-538-digital-trend
     letter-spacing: 1px;
     text-transform: uppercase;
   }
+  h5 {
+    color: #565656;
+    font-size: var(--h3-font-size);
+    font-weight: 100;
+    margin-bottom: 0;
+  }
+  h6 {
+    color: #b6b5b5;
+    font-size: var(--h3-font-size);
+    font-weight: 100;
+    margin-bottom: 0;
+  }
 
   p {
     color: var(--primary-color);
@@ -118,6 +130,12 @@ https://templatemo.com/tm-538-digital-trend
   strong {
     letter-spacing: 0;
     color: var(--p-color);
+  }
+
+  e 
+  strong {
+    letter-spacing: 0;
+    color: var(#c40000);
   }
 
   /*  BLOCKQUOTES */
@@ -344,8 +362,6 @@ https://templatemo.com/tm-538-digital-trend
     top: 8px;
   }
 
-
-
   /*---------------------------------------
      HERO              
   -----------------------------------------*/
@@ -364,7 +380,6 @@ https://templatemo.com/tm-538-digital-trend
     position: relative;
     top: 2em;
   }
-
 
 
   /*---------------------------------------
@@ -554,7 +569,7 @@ https://templatemo.com/tm-538-digital-trend
 
   .newsletter-form button,
   .contact-form #submit-button {
-    background: var(--primary-color);
+    background: var(--secondary-color);
     border-radius: var(--border-radius-large);
     color: var(--secondary-color);
     cursor: pointer;
