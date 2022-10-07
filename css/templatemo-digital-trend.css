@@ -247,14 +247,6 @@ https://templatemo.com/tm-538-digital-trend
     MENU             
   -----------------------------------------*/
 
-  .logo{
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-   
-    margin-top: -6px;
-}
-
   .navbar {
     background: var(--background-color);
     z-index: 2;
