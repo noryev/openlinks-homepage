@@ -108,12 +108,17 @@ https://templatemo.com/tm-538-digital-trend
     line-height: 1.5em;
   }
 
-  b, 
+  b 
   strong {
     letter-spacing: 0;
     color: var(--secondary-color);
   }
 
+  d 
+  strong {
+    letter-spacing: 0;
+    color: var(--p-color);
+  }
 
   /*  BLOCKQUOTES */
   .quote {
