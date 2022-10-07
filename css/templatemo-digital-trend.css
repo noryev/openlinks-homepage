@@ -38,6 +38,7 @@ https://templatemo.com/tm-538-digital-trend
     --project-bg:           #f0f8ff;
     --menu-bg:              #d4d4d4;
     --navbar-color-i:           #2a1b3d;
+    --background-color:     #44318D;
 
     --title-color:          #dedede;
     --gray-color:           #909090;
@@ -76,23 +77,25 @@ https://templatemo.com/tm-538-digital-trend
   }
 
   h1 {
-    color: var(--title-color);
+    color: var(--primary-color);
     font-size: var(--h1-font-size);
   }
 
   h2 {
+    color: var(--primary-color);
     font-size: var(--h2-font-size);
     font-weight: 100;
   }
 
   h3 {
+    color: #b6b5b5;
     font-size: var(--h3-font-size);
     font-weight: 100;
     margin-bottom: 0;
   }
 
   h4 {
-    color: var(--gray-color);
+    color: var(--primary-color);
     font-family: var(--base-font-family);
     font-size: var(--p-font-size);
     letter-spacing: 1px;
@@ -100,7 +103,7 @@ https://templatemo.com/tm-538-digital-trend
   }
 
   p {
-    color: var(--p-color);
+    color: var(--primary-color);
     font-size: var(--p-font-size);
     line-height: 1.5em;
   }
@@ -185,7 +188,7 @@ https://templatemo.com/tm-538-digital-trend
   }
 
   a {
-    color: var(--link-color);
+    color: var(--primary-color);
     font-weight: normal;
     text-decoration: none;
   }
@@ -200,7 +203,7 @@ https://templatemo.com/tm-538-digital-trend
 
   ::selection {
     background: var(--secondary-color);
-    color: var(--white-color);
+    color: var(--primary-color);
   }
 
   .section-padding {
@@ -222,7 +225,7 @@ https://templatemo.com/tm-538-digital-trend
   -----------------------------------------*/
 
   .navbar {
-    background: var(--navbar-color-i);
+    background: var(--background-color);
     z-index: 2;
     top: 0;
     right: 0;
@@ -231,12 +234,12 @@ https://templatemo.com/tm-538-digital-trend
   }
 
   .navbar-brand {
-    color: var(--white-color);
+    color: var(--secondary-color);
     font-size: var(--h2-font-size);
   }
 
   .nav-link {
-    color: var(--white-color);
+    color: var(--primary-color);
     font-size: var(--menu-font-size);
     letter-spacing: 0.4px;
     margin: 0 1.6em;
@@ -388,13 +391,13 @@ https://templatemo.com/tm-538-digital-trend
 
   .project-info small {
     font-family: Plain-Bold;
-    color: var(--gray-color);
+    color: var(--primary-color);
     position: relative;
     top: 2px;
   }
 
   .project-info a {
-    color: var(--primary-color);
+    color: var(--background-color);
   }
 
   .project-info .project-icon {
@@ -407,7 +410,7 @@ https://templatemo.com/tm-538-digital-trend
     top: 40px;
     background: var(--dark-color);
     border-radius: var(--border-radius-large);
-    color: var(--white-color);
+    color: var(--primary-color);
     font-size: var(--h2-font-size);
     width: 40px;
     height: 40px;
@@ -548,7 +551,7 @@ https://templatemo.com/tm-538-digital-trend
   .contact-form #submit-button {
     background: var(--primary-color);
     border-radius: var(--border-radius-large);
-    color: var(--white-color);
+    color: var(--secondary-color);
     cursor: pointer;
     font-size: var(--p-font-size);
     line-height: 0px;
@@ -602,6 +605,7 @@ https://templatemo.com/tm-538-digital-trend
   -----------------------------------------*/
 
   .social-icon {
+    color: #44318D;
     position: relative;
     padding: 0;
     margin: 4em 0 0 0;
