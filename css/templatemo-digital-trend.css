@@ -75,7 +75,7 @@ https://templatemo.com/tm-538-digital-trend
     font-family: var(--title-font-family);
     line-height: inherit;
   }
-
+ /* This is how you color the words on the home page */
   h1 {
     color: var(--primary-color);
     font-size: var(--h1-font-size);
@@ -595,6 +595,7 @@ https://templatemo.com/tm-538-digital-trend
   }
 
   .copyright-text {
+    color: #bc79ff;
     margin-top: 5.3em;
   }
 
