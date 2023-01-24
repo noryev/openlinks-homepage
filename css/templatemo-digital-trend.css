@@ -33,7 +33,7 @@ https://templatemo.com/tm-538-digital-trend
   :root {
     --primary-color:        #e5e5e5;
     --secondary-color:      #bc79ff;
-    --white-color:          linear-gradient(#44318D, #1C1235 );
+    --white-color:          linear-gradient(#44318D, #583fbe );
     --dark-color:           #d7d7d7;
     --project-bg:           #f0f8ff;
     --menu-bg:              #d4d4d4;
@@ -80,18 +80,22 @@ https://templatemo.com/tm-538-digital-trend
     color: var(--primary-color);
     font-size: var(--h1-font-size);
   }
-
+ /* This is for "How Openlinks works" */
   h2 {
     color: var(--primary-color);
     font-size: var(--h2-font-size);
     font-weight: 100;
+    padding-left: 250px ;
+    padding-bottom: 30px;
   }
+ /* This is for "In a few clicks" */
 
   h3 {
     color: #b6b5b5;
     font-size: var(--h3-font-size);
     font-weight: 100;
     margin-bottom: 0;
+    padding-bottom: 15px;
   }
 
   h4 {
@@ -113,6 +117,8 @@ https://templatemo.com/tm-538-digital-trend
     font-weight: 100;
     margin-bottom: 0;
   }
+
+
 
   p {
     color: var(--primary-color);
@@ -231,6 +237,7 @@ https://templatemo.com/tm-538-digital-trend
 
   .section-padding {
     padding: 8em 0;
+    
   }
   .section-padding-half {
     padding: 4em 0;
@@ -503,6 +510,7 @@ https://templatemo.com/tm-538-digital-trend
   .about-image img {
     display: block;
     margin: 0 auto;
+    padding-bottom: 30px;
   }
 
 
@@ -582,7 +590,17 @@ https://templatemo.com/tm-538-digital-trend
   .newsletter-form button {
     background: var(--secondary-color);
   }
-
+  #slider {
+    width: 300;
+    height: 300px;
+    overflow: hidden;
+  }
+  
+  .slide {
+    width: 300px;
+    height: 300px;
+    float: left;
+  }
 
 
   /*---------------------------------------
@@ -736,5 +754,6 @@ https://templatemo.com/tm-538-digital-trend
       margin-left: 0;
     }
   }
-
+ 
+  
 
