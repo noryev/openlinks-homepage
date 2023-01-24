@@ -71,7 +71,7 @@ https://templatemo.com/tm-538-digital-trend
      TYPOGRAPHY              
   -----------------------------------------*/
 
-  h1,h2,h3,h4,h5,h6,h7 {
+  h1,h2,h3,h4,h5,h6 {
     font-family: var(--title-font-family);
     line-height: inherit;
   }
