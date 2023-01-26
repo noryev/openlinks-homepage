@@ -35,7 +35,7 @@ https://templatemo.com/tm-538-digital-trend
     --secondary-color:      #bc79ff;
     --white-color:          linear-gradient(#44318D, #583fbe );
     --dark-color:           #d7d7d7;
-    --project-bg:           #f0f8ff;
+    --project-bg:           #583fbe;
     --menu-bg:              #d4d4d4;
     --navbar-color-i:           #2a1b3d;
     --background-color:     #44318D;
@@ -378,6 +378,7 @@ https://templatemo.com/tm-538-digital-trend
     position: relative;
     padding: 5em 0;
     overflow: hidden;
+    padding-bottom: 200px;
   }
 
   .hero-bg {
@@ -453,9 +454,10 @@ https://templatemo.com/tm-538-digital-trend
 
   .owl-theme .owl-dots .owl-dot span {
     background: var(--gray-color);
-    width: 50px;
+    width: 60px;
     height: 3px;
     margin:  35px 5px;
+    padding-bottom: 10px;
   }
 
   .owl-theme .owl-dots .owl-dot.active span, 
@@ -505,6 +507,7 @@ https://templatemo.com/tm-538-digital-trend
   .about {
     position: relative;
     overflow: hidden;
+    padding-top: 50px;
   }
 
   .about-image img {
@@ -561,7 +564,16 @@ https://templatemo.com/tm-538-digital-trend
     font-size: 18px;
   }
 
+  
+  /*---------------------------------------
+     Read More!              
+  -----------------------------------------*/
 
+  a > img {
+    width: 100%;
+    padding-right: 20px;
+     
+  }
 
   /*---------------------------------------
      CONTACT              
@@ -570,7 +582,7 @@ https://templatemo.com/tm-538-digital-trend
   .newsletter-form .form-control,
   .contact-form .form-control {
     box-shadow: none;
-    background: var(--project-bg);
+    background: var(--white-color);
     border: 0;
     padding: 1.7em 1.3em;
     margin: 14px 0;
@@ -589,17 +601,6 @@ https://templatemo.com/tm-538-digital-trend
 
   .newsletter-form button {
     background: var(--secondary-color);
-  }
-  #slider {
-    width: 300;
-    height: 300px;
-    overflow: hidden;
-  }
-  
-  .slide {
-    width: 300px;
-    height: 300px;
-    float: left;
   }
 
 

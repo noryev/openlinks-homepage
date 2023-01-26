@@ -98,7 +98,7 @@ https://templatemo.com/tm-538-digital-trend
                     <div class="col-lg-9 mx-auto col-md-10 col-12">
                          <div class="about-info">
                               <h2 class="primary-color" data-aos="fade-up">How Openlinks Works</h2>
-                              <h3 class="mb-4" data-aos="fade-up">In a few clicks, <strong>launch a link in bio webpage</strong> that only you control!</h2>
+                              <h3 class="mb-4" data-aos="fade-up">In a few clicks, <strong>launch a link in bio webpage</strong> only you can edit and control!</h2>
 
                              
                          </div>
@@ -140,9 +140,9 @@ https://templatemo.com/tm-538-digital-trend
 
                      
 
-                      <h3 class="mb-4" data-aos="fade-up" data-aos-delay="300">Openlinks webpages use the Open Web to give creators control over their Data.</h3>
+                      <h3 class="mb-4" data-aos="fade-up" data-aos-delay="300">Openlinks uses the Open Web to give creators control over their Data.</h3>
 
-                      <h3 class="mb-4" data-aos="fade-up" data-aos-delay="300">Create censorship-resistant webpages without blockchain gas fees.</h3>
+                      <h3 class="mb-4" data-aos="fade-up" data-aos-delay="300">Create mobile-friendly, censorship-resistant webpages without blockchain gas fees.</h3>
 
                    
                     </div>
@@ -151,48 +151,43 @@ https://templatemo.com/tm-538-digital-trend
           </div>
      </section>
 
-     <!-- Read more -->
-     <section class="testimonial section-padding">
+     <!-- Read More! -->
+     <section class="about section-padding pb-0" id="about">
       <div class="container">
            <div class="row">
 
-                <div class="col-lg-5 col-md-5 col-12">
-                    <div class="contact-image" data-aos="fade-up">
+                <div class="col-lg-12 col-12">
 
-                      <img src="images/Lisbon_Ally.png" class="img-fluid" alt="website">
-                    </div>
-                </div>
+                    <h3 class="mb-5 text-center" data-aos="fade-up">Read more about Openlinks!</h3>
 
-                <div class="col-lg-7 col-md-7 col-12">
-                  <h3 class="my-5 pt-3" data-aos="fade-up" data-aos-delay="100">Community is Everything!</h3>
-                    <button id="prev-btn">Previous</button>
-                    <div id="slider">
-                  
-                  <div id="slider">
-                    <div class="slide">
-                      <a href="#">
-                        <img src="images/GLX.png" alt="image1">
-                        <a href="https://medium.com/@GalaxyXone/why-openlinks-45d907b3c32e" target="_blank">Why a decentralized Link in Bio app?</a>
-                      </a>
-                    </div>
-                    <div class="slide">
-                      <a href="#">
-                        <img src="images/Web3storage.png" alt="image2">
-                        <a href="https://blog.web3.storage/posts/openlinks-case-study" target="_blank">Web3.storage blog post about Openlinks</a>
-                      </a>
-                    </div>
-                    </div>
-                    <button id="next-btn">Next</button>
-                  </div>
-                  
-                  <h3 class="mb-4" data-aos="fade-up" data-aos-delay="300"></h3>
+                     <div class="owl-carousel owl-theme" id="project-slide">
+                          <div class="item project-wrapper" data-aos="fade-up" data-aos-delay="100">
+                            <a href="https://blog.web3.storage/posts/openlinks-case-study"> 
+                            <img src="images/Web3storage.png" class="img-fluid" alt="project image">
+                            </a>
+                               
+                          </div>
 
-               
+                          <div class="item project-wrapper" data-aos="fade-up">
+                            <a href="https://medium.com/@GalaxyXone/why-openlinks-45d907b3c32e"> 
+                              <img src="images/GLX.png" class="img-fluid" alt="project image">
+                            </a>
+                               
+                          </div>
+
+                          <div class="item project-wrapper" data-aos="fade-up">
+                            <a href="https://twitter.com/opnlinks?lang=cs">
+                               <img src="images/Lisbon_Ally.png" class="img-fluid" alt="project image">
+                              </a>
+                          </div>
+                     </div>
                 </div>
 
            </div>
       </div>
  </section>
+
+ <!-- FOOTER -->
 
     <footer class="site-footer">
       <div class="container">
@@ -240,7 +235,7 @@ https://templatemo.com/tm-538-digital-trend
 
           <div class="col-lg-3 mx-lg-auto col-md-6 col-12" data-aos="fade-up" data-aos-delay="600">
             <ul class="social-icon">
-              <li><a href="https://mobile.twitter.com/opnlinks" class="fa fa-twitter"></a></li>
+              <li><a href="https://twitter.com/opnlinks?lang=cs" class="fa fa-twitter"></a></li>
               <li><a href="https://github.com/galaxyxone/openlinks" class="fa fa-github"></a></li>
               <li><a href="https://medium.com/@galaxyxone" class="fa fa-medium"></a></li>
             </ul>
@@ -259,50 +254,4 @@ https://templatemo.com/tm-538-digital-trend
      <script src="js/smoothscroll.js"></script>
      <script src="js/custom.js"></script>
 
-     <body>
-      <!-- Your HTML content -->
-      <script>
-        $(document).ready(function() {
-          $('.slide').hide();
-          $('.slide:first').show();
-          setInterval(function() {
-            $('.slide:first').animate({
-              marginLeft: '0%'
-            }, 2000, function() {
-              $(this).css('margin-left', 0).appendTo('#slider');
-            });
-          }, 4000);
-        });
-      </script>
-    </body>
-    
-    <script>
-  $(document).ready(function() {
-    var currentSlide = 0;
-    var slides = $('.slide');
-
-    $('.slide').hide();
-    $('.slide:first').show();
-
-    $('#prev-btn').click(function() {
-        currentSlide--;
-        if (currentSlide < 0) {
-            currentSlide = slides.length - 1;
-        }
-        $('.slide').hide();
-        $(slides[currentSlide]).show();
-    });
-
-    $('#next-btn').click(function() {
-        currentSlide++;
-        if (currentSlide >= slides.length) {
-            currentSlide = 0;
-        }
-        $('.slide').hide();
-        $(slides[currentSlide]).show();
-    });
-  });
-</script>
-
-</body>
 </html>
