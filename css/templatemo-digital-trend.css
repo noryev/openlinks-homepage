@@ -85,7 +85,6 @@ https://templatemo.com/tm-538-digital-trend
     color: var(--primary-color);
     font-size: var(--h2-font-size);
     font-weight: 100;
-    padding-left: 250px ;
     padding-bottom: 30px;
   }
  /* This is for "In a few clicks" */
@@ -378,7 +377,7 @@ https://templatemo.com/tm-538-digital-trend
     position: relative;
     padding: 5em 0;
     overflow: hidden;
-    padding-bottom: 200px;
+    padding-bottom: 300px;
   }
 
   .hero-bg {
@@ -508,6 +507,7 @@ https://templatemo.com/tm-538-digital-trend
     position: relative;
     overflow: hidden;
     padding-top: 50px;
+
   }
 
   .about-image img {
@@ -671,10 +671,12 @@ https://templatemo.com/tm-538-digital-trend
      RESPONSIVE STYLES              
   -----------------------------------------*/
 
-  @media screen and (min-width: 1200px) {
+  
+  @media screen and (min-width: 500px) {
 
     .about-info h2 {
-      max-width: 70%;
+    text-align: center; 
+    padding-bottom: 30px; 
     }
   }
 
