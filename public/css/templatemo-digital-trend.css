@@ -33,9 +33,9 @@ https://templatemo.com/tm-538-digital-trend
   :root {
     --primary-color:        #e5e5e5;
     --secondary-color:      #bc79ff;
-    --white-color:          linear-gradient(#44318D, #1C1235 );
+    --white-color:          linear-gradient(#44318D, #583fbe );
     --dark-color:           #d7d7d7;
-    --project-bg:           #f0f8ff;
+    --project-bg:           #583fbe;
     --menu-bg:              #d4d4d4;
     --navbar-color-i:           #2a1b3d;
     --background-color:     #44318D;
@@ -80,18 +80,21 @@ https://templatemo.com/tm-538-digital-trend
     color: var(--primary-color);
     font-size: var(--h1-font-size);
   }
-
+ /* This is for "How Openlinks works" */
   h2 {
     color: var(--primary-color);
     font-size: var(--h2-font-size);
     font-weight: 100;
+    padding-bottom: 30px;
   }
+ /* This is for "In a few clicks" */
 
   h3 {
     color: #b6b5b5;
     font-size: var(--h3-font-size);
     font-weight: 100;
     margin-bottom: 0;
+    padding-bottom: 15px;
   }
 
   h4 {
@@ -113,6 +116,8 @@ https://templatemo.com/tm-538-digital-trend
     font-weight: 100;
     margin-bottom: 0;
   }
+
+
 
   p {
     color: var(--primary-color);
@@ -231,6 +236,7 @@ https://templatemo.com/tm-538-digital-trend
 
   .section-padding {
     padding: 8em 0;
+    
   }
   .section-padding-half {
     padding: 4em 0;
@@ -371,6 +377,7 @@ https://templatemo.com/tm-538-digital-trend
     position: relative;
     padding: 5em 0;
     overflow: hidden;
+    padding-bottom: 300px;
   }
 
   .hero-bg {
@@ -446,9 +453,10 @@ https://templatemo.com/tm-538-digital-trend
 
   .owl-theme .owl-dots .owl-dot span {
     background: var(--gray-color);
-    width: 50px;
+    width: 60px;
     height: 3px;
     margin:  35px 5px;
+    padding-bottom: 10px;
   }
 
   .owl-theme .owl-dots .owl-dot.active span, 
@@ -498,11 +506,14 @@ https://templatemo.com/tm-538-digital-trend
   .about {
     position: relative;
     overflow: hidden;
+    padding-top: 50px;
+
   }
 
   .about-image img {
     display: block;
     margin: 0 auto;
+    padding-bottom: 30px;
   }
 
 
@@ -553,7 +564,16 @@ https://templatemo.com/tm-538-digital-trend
     font-size: 18px;
   }
 
+  
+  /*---------------------------------------
+     Read More!              
+  -----------------------------------------*/
 
+  a > img {
+    width: 100%;
+    padding-right: 20px;
+     
+  }
 
   /*---------------------------------------
      CONTACT              
@@ -562,7 +582,7 @@ https://templatemo.com/tm-538-digital-trend
   .newsletter-form .form-control,
   .contact-form .form-control {
     box-shadow: none;
-    background: var(--project-bg);
+    background: var(--white-color);
     border: 0;
     padding: 1.7em 1.3em;
     margin: 14px 0;
@@ -582,7 +602,6 @@ https://templatemo.com/tm-538-digital-trend
   .newsletter-form button {
     background: var(--secondary-color);
   }
-
 
 
   /*---------------------------------------
@@ -652,10 +671,12 @@ https://templatemo.com/tm-538-digital-trend
      RESPONSIVE STYLES              
   -----------------------------------------*/
 
-  @media screen and (min-width: 1200px) {
+  
+  @media screen and (min-width: 500px) {
 
     .about-info h2 {
-      max-width: 70%;
+    text-align: center; 
+    padding-bottom: 30px; 
     }
   }
 
@@ -736,5 +757,6 @@ https://templatemo.com/tm-538-digital-trend
       margin-left: 0;
     }
   }
-
+ 
+  
 
