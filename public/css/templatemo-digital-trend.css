@@ -510,6 +510,80 @@ a:focus {
       BLOG            
   -----------------------------------------*/
 
+  .image-text-container {
+    position: relative;
+    height: 440px; /* You may need to adjust this depending on your images */
+    overflow: hidden;
+    border-radius: 15px 15px 0 0; /* Rounded corners on top, straight corners at the bottom */
+}
+
+.project-image {
+    width: 100%;
+    height: auto;
+    border-radius: 15px 15px 0 0; /* Rounded corners on top, straight corners at the bottom */
+}
+
+.project-info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff; /*   background  other gray color #d7d7d7*/
+    text-align: left; /* Align text to the left */
+    padding: 20px 20px; /* Added horizontal padding for text */
+    border-radius: 0 0 15px 15px; /* Straight corners on top, rounded corners at the bottom */
+}
+
+.project-info h4 a {
+  color: inherit; /* so it matches with the original text color */
+  font-family: Plain-Bold;
+  font-weight: 700;
+  text-decoration: none; /* remove underline */
+}
+
+.project-info h4 a:hover {
+  color: #44318d; /* change this to the exact color you want */
+}
+
+
+.category {
+    color: #888;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.project-info h4 {
+    color: #333;
+    font-weight: 700; /* Bold the title */
+    margin-bottom: 10px;
+}
+
+.date-info {
+  display: flex;
+  justify-content: flex-start; /* Align items to the left */
+  align-items: center;
+  gap: 10px;
+}
+
+.author-info {
+    display: flex;
+    margin-left: 3px;
+    justify-content: flex-start; /* Align items to the left */
+    align-items: center;
+    gap: 10px;
+}
+
+.date {
+    color: #000000;
+    font-size: 14px;
+    margin-left: 3px; /* Increase left margin */
+}
+
+.author-name {
+    color: #000000;
+}
+
+  
 .blog-header {
   border-radius: var(--border-radius-small);
   position: relative;
@@ -739,6 +813,8 @@ a > img {
   .footer-link li {
     margin-left: 0;
   }
+
+
 }
  
   
